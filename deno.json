@@ -1,5 +1,5 @@
 {
-  "name": "@db/redis",
+  "name": "@ardabeyazoglu/deno-redis",
   "version": "0.35.0",
   "exports": "./mod.ts",
   "exclude": [
