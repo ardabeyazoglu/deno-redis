@@ -1,7 +1,11 @@
 {
   "name": "@ardabeyazoglu/deno-redis",
-  "version": "0.35.0",
-  "exports": "./mod.ts",
+  "version": "0.36.0",
+  "exports": {
+    ".": "./mod.ts",
+    "./experimental/cluster": "./experimental/cluster/mod.ts",
+    "./experimental/web-streams-connection": "./experimental/web_streams_connection/mod.ts"
+  },
   "exclude": [
     "benchmark/node_modules",
     "tmp"
